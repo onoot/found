@@ -5,6 +5,13 @@ body {
   font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+main {
+  flex: 1;
+  margin-top: 20px; /* установите дополнительный отступ сверху */
+  max-width: 1200px; /* ограничивает ширину для контента страницы */
+  margin: 0 auto; /* выравнивание контента по центру */
+  padding: 0 20px; /* добавление отступов по бокам */
+}
 
 a {
   color: inherit;
